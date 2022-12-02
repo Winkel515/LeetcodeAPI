@@ -1,0 +1,7 @@
+services:
+  leetcode:
+    build:
+      dockerfile: Dockerfile
+    command: "mvn spring-boot:run"
+    ports:
+      - 8080:8080
